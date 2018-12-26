@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es" >
+	<head>
+		 <meta charset="utf-8"/>
+		 <link rel="stylesheet" href="./css/styles.css">
+		 <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+		 <script type="text/javascript" src="./js/mario.js">
+		 </script>
+
+		<title>Mario Bomba</title>
+	</head>
+
+	<!--Este código ha sido realizado por                  -->
+	<body>
+		<h1>Morio VOX</h1>
+		<div class="smartphone">
+		  <div class="content">
+				<img src="./imgs/levelup.gif" id ="lvlup" alt="Level Up">
+				<div id="menu">
+					<h1>Morio VOX</h1>
+					<p>By Emilio Mateo</p>
+					<div class="botonesmenu">
+						<input type="button" id="inicio" value="INICIAR">
+						<input type="button" id="controles" onclick="abrircontroles()" value="CONTROLES">
+					</div>
+				</div>
+				<div id="final">
+					<img src="./imgs/mariogameover.gif" alt="GAME OVER">
+					<div id="top">
+
+						<h2>Puntos: <strong id="puntos"></strong></h2>
+						<h3>TOP 5</h3>
+						<table>
+							<tr>
+								<td>Nombre</td>
+								<td>Puntos</td>
+							</tr>
+							<tr>
+								<td>aaaaaa</td>
+								<td>aaaaaa</td>
+							</tr>
+							<tr>
+								<td>aaaaaa</td>
+								<td>aaaaaa</td>
+							</tr>
+							<tr>
+								<td>aaaaaa</td>
+								<td>v</td>
+							</tr>
+							<tr>
+								<td>aaaaaa</td>
+								<td>aaaaaa</td>
+							</tr>
+							<tr>
+								<td>aaaaaa</td>
+								<td>aaaaaa</td>
+							</tr>
+						</table>
+
+						<input type="text" id='nick' placeholder="Nombre">
+						<input type="button" id='confirmarnick' value="OK">
+					</div>
+
+					<p>Pulsa 'R' para volver a jugar</p>
+				</div>
+				<div id="controlesbox">
+					<input type="button" id="cerrar" value="x">
+					<h2>CONTROLES</h2>
+
+					<table>
+							<thead>
+								Movimientos
+							</thead>
+						<tr>
+							<td>IZQUIERDA</td>
+							<td>DERECHA</td>
+						</tr>
+						<tr>
+							<td> <div class="tecla">&#8592;</div></td>
+							<td><div class="tecla">&#8594;</div></td>
+						</tr>
+					</table>
+
+					<p>El juego consigue en que MORIO BOX coja todas las cajas posibles y sin perder ninguna por que wario esta a la espera para comerse las cajas y hacerse mas fuerte</p>
+				</div>
+
+		    <canvas id="lienzo" width="300" height="600">
+
+				</canvas>
+				<input type="button" id="menosVolumen" value="▬">
+				<input type="button" id="masVolumen" value="✚">
+		  </div>
+		</div>
+
+	</body>
+
+</html>

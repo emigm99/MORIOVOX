@@ -1,0 +1,95 @@
+body{
+  background-image: url('../imgs/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #e9b02f;
+}
+h1{
+  font-family: 'Bangers', cursive;
+  color: red;
+  text-align: center;
+  font-size: 4em;
+	text-shadow: 3px 3px 0px #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.smartphone {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+  box-shadow: 5px 5px 0px gray;
+  borde
+}
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.smartphone:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+  width: 300px;
+  height: 600px;
+  background: white;
+}
+
+
+
+
+
+#menosVolumen{
+  height: 30px;
+  width: 80px;
+  float: left;
+  position: relative;
+  left: 26px;
+  top: 10px;
+  background-image: url(../imgs/texturaboton.png);
+  background-size: contain;
+  border: 0px black solid;
+  font-size: 1em;
+  color: white;
+  font-weight: bolder;
+}
+#masVolumen{
+  height: 30px;
+  width: 80px;
+  float: right;
+  position: relative;
+  right: 26px;
+  top: 10px;
+  background-image: url(../imgs/texturaboton.png);
+  background-size: contain;
+  border: 0px black solid;
+  font-size: 1em;
+  color: white;
+  font-weight: bolder;
+}
